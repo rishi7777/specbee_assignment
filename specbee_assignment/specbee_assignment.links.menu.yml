@@ -1,0 +1,5 @@
+site_timezone_config:
+  title: 'Site Timezone Setting'
+  parent: system.admin
+  menu_name: site_timezone_config
+  route_name: 'assignment.admin_site_location_settings_form'

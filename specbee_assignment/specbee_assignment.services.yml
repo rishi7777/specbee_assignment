@@ -1,0 +1,4 @@
+services:
+ specbee_assignment.get_current_time_by_timezone:
+   class: Drupal\specbee_assignment\GetCurrentTimeByTimezone
+   arguments: ['@date.formatter', '@state']

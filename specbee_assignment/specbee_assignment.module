@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function specbee_assignment_theme($existing, $type, $theme, $path) {
+  return [
+    'show_site_location_timezone' => [
+      'variables' => [
+        'country' => null,
+        'city' => null,
+        'time' => null,
+      ],
+      'template' => 'show-site-location-timezone',
+    ],
+  ];
+}
